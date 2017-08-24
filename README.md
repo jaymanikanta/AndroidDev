@@ -6,6 +6,6 @@ A simple random quotes application made in Android Studio.
 ## What did you code it in?
 - I used Android Studio and wrote the application in Kotlin. :sunglasses:
 ## How does it look like? 
-![Main Screen]({{site.baseurl}}/http://imgur.com/a/VwKD6)
+![Main Screen]({{site.baseurl}}/https://github.com/jaymanikanta/Random-Quotes-App/blob/master/app/src/main/res/drawable/mainscreen.png)
 ## Can I modify and use this ?
 - Hell Yeah! you can modify and do whatever you want.
