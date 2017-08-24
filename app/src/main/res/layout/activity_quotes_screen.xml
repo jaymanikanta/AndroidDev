@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quotesplash"
+    android:padding="10dp"
+    tools:context="com.jayux.codeplex.quotesapp.QuotesScreen">
+
+    <TextView
+        android:id="@+id/textViewAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#3e4444"
+        android:text="Mahatma Gandhi"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="79dp"
+        android:fontFamily="@font/pacifico"
+        android:text="Live as if you were to die tomorrow. Learn as if you were to live forever."
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/roboto"
+        android:text="Quotes App"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="57dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_rotate"
+        android:layout_above="@+id/textViewAuthor"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
